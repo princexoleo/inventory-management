@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_kroy"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="@string/kroy_string" />
+
+        <item
+            android:id="@+id/menu_daily_kroy"
+            android:icon="@drawable/ic_graphic_eq_black_24dp"
+            android:title="@string/daily_kroy_str" />
+
+        <item
+            android:id="@+id/menu_stock_report"
+            android:icon="@drawable/ic_graphic_eq_black_24dp"
+            android:title="@string/daily_kroy_str" />
+        <item
+            android:id="@+id/menu_sell_report"
+            android:icon="@drawable/ic_graphic_eq_black_24dp"
+            android:title="@string/daily_kroy_str" />
+
+        <item
+            android:id="@+id/menu_settings"
+            android:icon="@drawable/ic_stat_black_24dp"
+            android:title="@string/settings_str" />
+
+    </group>
+
+</menu>

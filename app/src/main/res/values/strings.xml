@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Inventory</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kroy_string">ক্রয়</string>
+    <string name="daily_kroy_str">ডেইলি ক্রয়</string>
+    <string name="settings_str">সেটিংস</string>
+    <string name="enter_customers_name_hint">কাস্টমারের নাম</string>
+    <string name="current_time_str"> 12 : 55 am</string>
+    <string name="current_date_str">24 May 2019</string>
+</resources>

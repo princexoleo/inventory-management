@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/buyFragment">
+
+    <fragment
+        android:id="@+id/buyFragment"
+        android:name="com.leo.test.inventory.ui.fragment.BuyFragment"
+        android:label="fragment_buy"
+        tools:layout="@layout/fragment_buy" />
+    <fragment
+        android:id="@+id/dailyBuyFragment"
+        android:name="com.leo.test.inventory.ui.fragment.DailyBuyFragment"
+        android:label="fragment_daily_buy"
+        tools:layout="@layout/fragment_daily_buy" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.leo.test.inventory.ui.fragment.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_self"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+</navigation>
